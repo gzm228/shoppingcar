@@ -1,0 +1,236 @@
+@import "base.css";
+@import "nocar.css";
+html{
+    font-size:100px;
+}
+body{
+    font-size:16px;
+}
+@media screen and (min-width:320px){
+    html{
+        font-size:42.66667px;
+    }
+
+}
+@media screen and (min-width:360px){
+    html{
+        font-size:48px;
+    }
+
+}
+@media screen and (min-width:375px){
+    html{
+        font-size:50px;
+    }
+
+}
+@media screen and (min-width:411px){
+    html{
+        font-size:54px;
+    }
+
+}
+@media screen and (min-width:412px){
+    html{
+        font-size:54.93333px;
+    }
+
+}
+@media screen and (min-width:414px){
+    html{
+        font-size:55.2px;
+    }
+
+}
+header{
+    width:100%;
+    height: 0.88rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color:#4ebbfe;
+    font-size: 0.38rem;
+    box-shadow: 0 0.03rem 0.43rem 0
+    rgba(41, 167, 255, 0.13);
+}
+header>a{
+    color: #36a8fe;
+}
+.shuiLongTou{
+    padding:0.3rem 0.25rem 0;
+    box-sizing: border-box;
+}
+.shuiLongTou>li{
+    position: relative;
+    height: 2.5rem;
+    padding:0.45rem 0 0.35rem 0;
+    box-sizing: border-box;
+    border-bottom: 0.01rem solid #d8dfe3;
+
+}
+.shuiLongTou>.hot::before{
+    content: '';
+    width: 0.24rem;
+    height: 0.24rem;
+    border-radius: 50%;
+    background-color: #e7f6ff;
+    background-image:url("../image/矩形2.png") ;
+    background-size:100% ;
+    /*background-size:cover*/
+    position: absolute;
+    left:0.03rem;
+    top: 0.95rem;
+}
+.shuiLongTou>li>.img{
+
+    float: left;
+    text-align: center;
+    width: 1.74rem;
+    height: 1.74rem;
+    box-shadow: 0px 1px 21px 0px
+    rgba(223, 223, 223, 0.43);
+    border-radius: 10px;
+    margin-right: 0.2rem;
+    margin-left: 0.53rem;
+
+
+}
+.shuiLongTou>li>.img>img{
+    width:1.19rem ;
+    height: 1.25rem;
+
+}
+
+.shuiLongTou>li>.item{
+    margin-left: 2.5rem;
+    height: 1.25rem;
+    position: relative;
+}
+
+.shuiLongTou>li>.item>span{
+    font-size: 0.3rem;
+    font-weight: normal;
+    color: #000000;
+    opacity: 0.6;
+
+}
+.shuiLongTou>li>.item>h1{
+    color: #8e9397;
+    opacity: 0.8;
+    font-weight: normal;
+    font-size: 0.26rem;
+
+}
+.item>span>.jiajian{
+    float: right;
+    width: 1.3rem;
+    height: 0.4rem;
+    text-align: center;
+    line-height: 0.4rem;
+    position: absolute;
+    right: 0.1rem;
+    bottom:0.8rem;
+
+}
+.item>span>.jiajian>img{
+    width: 0.34rem;
+    height: 0.34rem;
+    border-radius: 50%;
+
+}
+
+.item>span>.jiajian>strong{
+    font-size: 0.34rem;
+    font-weight: normal;
+    color: #36a8fe;
+}
+.item>h1>a{
+    font-size: 0.26rem;
+    color:  #8e9397;
+}
+.shuiLongTou>li::before{
+    content: '';
+    width: 0.24rem;
+    height: 0.24rem;
+    border-radius: 50%;
+    background-color: #e7f6ff;
+    position: absolute;
+    left:0.03rem;
+    top: 0.95rem;
+}
+.choose{
+    display: inline-block;
+    padding:0 0.25rem 0 0.78rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    color: #3bacfe;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.choose::before{
+    content: '';
+    width: 0.24rem;
+    height: 0.24rem;
+    border-radius: 50%;
+    background-color: #e7f6ff;
+    position: absolute;
+    left:0.3rem;
+    top: 0.05rem;
+}
+footer{
+    width:100%;
+    height:0.98rem;
+    background-color: #f1f9ff;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+footer>.list>span{
+    font-size:0.24rem;
+    font-weight: normal;
+    color: #3bacfe;
+    opacity: 0.6;
+}
+footer>.list>h1{
+    font-size:0.24rem;
+    font-weight: normal;
+    color: #3bacfe;
+    opacity: 0.6;
+}
+footer>.list>span>a{
+    font-size:0.24rem;
+    color: #3bacfe;
+    opacity: 0.6;
+}
+footer>.list>h1>a{
+    font-size:0.24rem;
+    color: #3bacfe;
+    opacity: 0.6;
+}
+footer>.rightNow{
+     margin: 0.2rem 0;
+ }
+footer>.rightNow span{
+    display: inline-block;
+    font-size: 0.24rem;
+    font-weight: normal;
+    color: #ffffff;
+    padding:0.18rem 1.67rem;
+    background-image: linear-gradient(90deg,
+    #37e06f 0%,
+    #31d69a 100%),
+    linear-gradient(
+            #3bacfe,
+            #3bacfe);
+    background-blend-mode: normal,
+    normal;
+    box-shadow: 0 0.04rem 0.2rem 0
+    rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+}
