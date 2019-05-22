@@ -1,0 +1,457 @@
+@import "base.css";
+html{
+    font-size:100px;
+}
+body{
+    font-size:16px;
+}
+@media screen and (min-width:320px){
+    html{
+        font-size:42.66667px;
+    }
+
+}
+@media screen and (min-width:360px){
+    html{
+        font-size:48px;
+    }
+
+}
+@media screen and (min-width:375px){
+    html{
+        font-size:50px;
+    }
+
+}
+@media screen and (min-width:411px){
+    html{
+        font-size:54px;
+    }
+
+}
+@media screen and (min-width:412px){
+    html{
+        font-size:54.93333px;
+    }
+
+}
+@media screen and (min-width:414px){
+    html{
+        font-size:55.2px;
+    }
+
+}
+header{
+    width:100%;
+    height: 0.88rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color:#4ebbfe;
+    font-size: 0.38rem;
+    box-shadow: 0px 3px 43px 0px
+    rgba(41, 167, 255, 0.13);
+}
+header>a{
+    color: #36a8fe;
+}
+.img{
+    width:100%;
+    padding:1.7rem 2.24rem;
+    box-sizing: border-box;
+
+}
+.img img{
+    width:3rem;
+    height:3.60rem;
+
+}
+.listitem {
+    width: 100%;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+}
+.listitem >h1{
+    font-size: 0.3rem;
+    font-weight: normal;
+    color: #000000;
+    opacity: 0.6;
+
+}
+.listitem>p{
+    box-sizing: border-box;
+    font-size: 0.22rem;
+    font-weight: normal;
+    color: #000000;
+    opacity: 0.3;
+    line-height: 1.5;
+    height:0.66rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    padding:0.05rem 0.17rem 0.17rem  0;
+
+}
+.listitem>.tag{
+    position: relative;
+    padding:0.18rem 0;
+
+}
+.listitem>.tag> .price{
+    font-size: 0.26rem;
+    font-weight: normal;
+    color: #fbb548;
+
+}
+.listitem>.tag>.orderMoney{
+    font-size: 0.2rem;
+    font-weight: normal;
+    color: #41b2fc;
+    padding: 0.09rem 0.19rem;
+    background:rgba(65,178,252,0.1);
+    border-radius: 0.2rem;
+}
+.listitem>.tag>.service{
+    font-size: 0.2rem;
+    font-weight: normal;
+    color: #36d681;
+    padding: 0.09rem 0.14rem;
+    background: rgba(54,214,129,0.1);
+    border-radius: 0.2rem;
+}
+.listitem>.tag>.sale{
+    font-size: 0.2rem;
+    font-weight: normal;
+    color: #000000;
+    opacity: 0.3;
+    position:absolute;
+    right:0;
+    bottom: 0.24rem;
+    padding-left: 0.1rem;
+
+}
+.listitem>.tag>.sale::before{
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: #36d681;
+    border-radius: 50%;
+    position: absolute;
+    left:0;
+    top:0.1rem;
+}
+.listitem>.tag>.sale>strong{
+    font-size: 0.24rem;
+    font-weight: normal;
+    color: #36a8fe;
+    opacity: 1;
+}
+.listitem>.tips{
+    height:0.85rem;
+    line-height:0.85rem;
+    border-top: 0.01rem solid #d8dfe3;
+    border-bottom: 0.01rem solid #d8dfe3;
+}
+.listitem>.tips>img{
+    width:0.49rem;
+    height:0.23rem;
+}
+.listitem>.tips>span{
+    font-size: 0.24rem;
+    font-weight: normal;
+    color:#ff844e ;
+}
+.listitem>.tips>.rule{
+    font-weight: normal;
+    font-size: 0.24rem;
+    color: #fbfeff;
+    background-image: linear-gradient(270deg,
+    #ffca3b 0%,
+    #ff933b 100%);
+    box-shadow: 0 0.04rem 0.16rem 0
+    rgba(255, 142, 81, 0.3);
+    border-radius: 0.2rem;
+    padding: 0.07rem 0.27rem;
+
+}
+.listitem>.lips{
+    height:0.77rem;
+    line-height: 0.77rem;
+    border-bottom: 0.01rem solid #d8dfe3;
+}
+.listitem>.lips>span{
+    font-size:0.24rem;
+    font-weight: normal;
+    color: #41b2fc;
+    margin-right: 0.8rem;
+    padding-left: 0.1rem;
+    position: relative;
+
+}
+.listitem>.lips>span::before{
+    content: '';
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #41b2fc;
+    position: absolute;
+    left:0;
+    top:0.13rem;
+
+}
+.comment{
+    height:5.92rem;
+    padding: 0.43rem 0.25rem 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.comment>.title{
+    margin-bottom: 0.49rem;
+    display:flex;
+    justify-content: space-between;
+}
+.comment>.title>span{
+     font-size: 0.32rem;
+     font-weight: normal;
+     color: #41b2fc;
+ }
+.comment>.title>.user1{
+    position: relative;
+    padding-left: 0.1rem;
+    box-sizing: border-box;
+}
+.comment>.title>.user1::before{
+    content: '';
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #41b2fc;
+    position: absolute;
+    left:0;
+    top:0.20rem;
+}
+.comment>.title>span>strong{
+     font-size: 0.32rem;
+     font-weight: normal;
+     color: #4f5b64;
+ }
+.comment>.title>.watchAll{
+     font-size: 0.22rem;
+     font-weight: normal;
+     color:#3bacfe;
+ }
+.comment>.title>.watchAll>a{
+    color:#3bacfe;
+    font-size:0.22rem;
+}
+.comment>.list{
+    height:auto;
+ }
+.comment>.list>li{
+    height: 1.97rem;
+    border-bottom: 0.01rem solid #d8dfe3;
+    margin-bottom: 0.49rem;
+}
+.comment>.list>li>.picture{
+    width:0.85rem;
+    height:1.97rem;
+    float:left;
+    border-radius:50%;
+    margin-right:0.2rem;
+}
+.comment>.list>li>.picture>img{
+    width: 0.85rem;
+    height:0.85rem;
+    border-radius:50%;
+
+}
+.comment>.list>li>.item{
+    margin-left: 1rem;
+
+}
+.comment>.list>li>.item>.first{
+    position: relative;
+    overflow: hidden;
+}
+.comment>.list>li>.item>.first>span{
+    font-size: 0.2rem;
+    font-weight: normal;
+    color:#cfcfcf;
+    float: left;
+    margin-right:0.2rem;
+}
+.first>.star{
+    width:1.3rem;
+    height:0.2rem;
+    position: relative;
+    display: block;
+    float: left;
+}
+.star>div{
+    width:1.3rem;
+    height:0.2rem;
+    position:absolute;
+    left:0;
+    top:0;
+
+
+}
+/*.star> .common{*/
+/*    width: 1.3rem;*/
+/*    height:0.2rem;*/
+/*    position:absolute;*/
+/*    left:0;*/
+/*    top:0;*/
+/*}*/
+.star >div >[src]{
+    width:1.3rem;
+    height:0.2rem;
+}
+.comment>.list>li>.item>.first>.time{
+    font-size: 0.22rem;
+    font-weight: normal;
+    color: #9ed5ff;
+    position: absolute;
+    right:0;
+    bottom: 0;
+}
+.second>span{
+    font-size: 0.26rem;
+    font-weight: normal;
+    color: #000000;
+    opacity: 0.6;
+}
+.third >span{
+    font-size: 0.22rem;
+    font-weight: normal;
+    color: #000000;
+    opacity: 0.3;
+}
+.tt{
+    padding:0 0.25rem;
+    box-sizing: border-box;
+}
+.tt>span{
+    font-size: 0.32rem;
+    font-weight: normal;
+    color: #35db82;
+    height:0.88rem;
+    line-height: 0.88rem;
+   position: relative;
+    padding-left: 0.1rem;
+}
+.tt>span>strong{
+    color:#4f5b64;
+}
+.tt>span::before{
+    content: '';
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #35db82;
+    position: absolute;
+    left:0;
+    top:0.13rem;
+
+}.shuiLongTou{
+    padding: 0.45rem 0.25rem 0;
+    height:6.42rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 0.98rem;
+
+ }
+ .shuiLongTou>li{
+     padding-bottom: 0.66rem;
+     display: flex;
+     flex-direction: column;
+     justify-content:space-between ;
+ }
+ .shuiLongTou>li>img{
+     width:1.31rem;
+     height:1.37rem;
+ }
+.shuiLongTou>li>h1{
+    font-size: 0.26rem;
+    font-weight: normal;
+    color: #000000;
+    opacity: 0.6;
+}
+.shuiLongTou>li>span{
+    font-size: 0.28rem;
+    font-weight: normal;
+    color: #fbb548;
+
+}
+footer{
+    width:100%;
+    height:0.98rem;
+    background-color: #f1f9ff;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+footer >.shop,.shopper{
+    width:0.7rem;
+    height:100%;
+    font-size: 0.24rem;
+    color: #4ebbfe;
+    text-align: center;
+    padding-top: 0.1rem;
+    box-sizing: border-box;
+    opacity: 0.5;
+}
+footer >.shopper{
+    color:#2ed977 ;
+}
+footer>.shoppingCar{
+    margin: 0.2rem 0;
+}
+footer>.shoppingCar span{
+    display: inline-block;
+    font-size: 0.24rem;
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+    padding:0.18rem 0.37rem;
+    box-sizing: border-box;
+    background-image: linear-gradient(90deg,
+    #37e06f 0%,
+    #31d69a 100%),
+    linear-gradient(
+            #3bacfe,
+            #3bacfe);
+    box-shadow: 0 0.04rem 0.2rem 0
+    rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+}
+footer>.rightNow{
+    margin: 0.2rem 0;
+}
+footer>.rightNow span{
+    display: inline-block;
+    font-size: 0.24rem;
+    font-weight: normal;
+    color: #ffffff;
+    padding:0.18rem 0.37rem;
+    background-color: #3bacfe;
+    box-shadow: 0 0.05rem 0.12rem 0
+    rgba(59, 172, 254, 0.43);
+    border-radius: 0.3rem;
+}
+
+footer >a>img{
+    width: 0.5rem;
+    height:0.5rem;
+    display: inline-block;
+}
